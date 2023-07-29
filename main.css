@@ -102,3 +102,23 @@ header .open_account,
   font-weight: 700;
   margin-top: 48px;
 }
+.section1{
+  padding: 99px 0px;
+}
+.section1 .choose_card{
+  flex-direction: column;
+  gap: 23px;
+}
+.section1 .cards,
+.slider{
+  gap: 16px;
+}
+.section1 .slider{
+ gap: 34px;
+}
+.section1 .descript h1{
+  width: 457px;
+  font-size: 32px;
+  font-weight: 800;
+  color: #000000;
+}
