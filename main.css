@@ -1,9 +1,76 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap");
+
 * {
-  box-sizing: border-box;
-  font-family: "Manrope";
+    box-sizing: border-box;
+    font-family: "Manrope";
 }
+
 body {
-  margin: 0;
-  padding: 24px 100px;
+    margin: 0;
+    padding: 24px 100px;
+}
+
+.section5 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: #D760C7;
+}
+
+.sec5-left {
+    display: grid;
+    place-items: center;
+}
+
+.sec5-right {
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    justify-content: space-around;
+}
+
+.sec5-right h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+.sec5-right h2 span {
+    color: #D760C7;
+}
+
+.sec5-right p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #626263;
+}
+
+.sec5-right-bottom {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.sec5-right-bottom .btns {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sec5-right-bottom .btns button {
+    display: flex;
+    width: 217px;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 0px;
+    border-radius: 8px;
+    background-color: rgb(27, 27, 27);
 }
